@@ -1,0 +1,72 @@
+Table location
+	location_id
+	location_name
+	location_description
+	unique_act
+	unique_act_desc
+
+table hotel
+	hotel_id
+	hotel_name
+	hotel_price
+	hotel_act
+
+
+table restaurant
+	rest_id
+	rest_name
+	rest_price
+	rest_act
+
+table locHotel
+	loc_id
+	hotel_id
+
+table locRest
+	loc_id
+	rest_id
+
+====================================
+
+Ask user how many people on tour:
+	multiply all prices by people on tour
+
+starts by asking user which tour to go on
+	depending on answer get a list of ids for tour locations
+	List of IDS is set in program
+
+get locations using list of ids
+	turns each location into node object
+	loads in associated hotels and restaurants
+
+
+nodeLoc
+	locId
+	LocName
+	locDesc
+	ListofHotels
+	ListofRest
+	UniqueAct
+	UniqueActDesc
+	NextLoc pointer
+
+Takes users to first location
+
+	Display name and description
+	If list of hotels not empty display option to view hotels
+		allows users to visit hotel
+			add price to total
+			display hotel act
+		
+	same for restaurants
+	if unique act not null
+		display option to do unique act
+		if user chooses to do unique act
+			display unique act description
+	option to go to next location
+
+FInally
+	SHew end message
+	Maybe listof locations
+	Display total price
+		
