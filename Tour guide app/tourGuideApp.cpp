@@ -1,4 +1,6 @@
 #include<iostream>
+#include<string>
+#include "locationNode.h"
 
 using namespace std;
 
