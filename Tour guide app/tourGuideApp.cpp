@@ -23,7 +23,7 @@ int main()
 		//Get user responce
 		//Depending on responce call curr loc function
 		
-	}while(ch!=9);
+	}while(CurrLoc);
 	
 	//print out end message.
 	//Print out total spent
