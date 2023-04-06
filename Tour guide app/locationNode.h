@@ -10,8 +10,8 @@ class locationNode{
 		int locId;
 		string locName;
 		string locDesc;
-		vector <map<string, string>> ListofHotels;
-		vector <map<string, string>> ListofRest;
+		vector <map<string, string > > ListofHotels;
+		vector <map<string, string > > ListofRest;
 		string UniqueAct;
 		string UniqueActDesc;
 		struct locationNode *NextLoc;
@@ -84,7 +84,7 @@ void locationNode::uniqueAct(){
 }
 
 locationNode* locationNode::getNextLoc(){
-	return NextLoc
+	return NextLoc;
 }
 
 void locationNode::setNextLoc(struct locationNode *newLoc){
