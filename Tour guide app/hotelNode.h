@@ -16,10 +16,31 @@ private:
 public:
     hotelNode();
     hotelNode(int id, string name, double price, string act);
-};
+    int getId(){
+        return hotelId;
+    }
+    string getName(){
+        return hotelName;
+    }
+    double getPrice(){
+        return hotelPrice;
+    }
+    string getAct(){
+        return hotelAct;
+    }
+    void setId(int id){
+        this->hotelId=id;
+    }
+    void setName(string name){
+        this->hotelName=name;
+    }
+    void setPrice(double price){
+        this->hotelPrice=price;
+    }
+    void setAct(string act){
+        this->hotelAct=act;
+    }
 
-hotelNode::hotelNode(){
-    return;
-}
+};
 
 
