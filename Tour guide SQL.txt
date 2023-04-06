@@ -1,0 +1,58 @@
+DROP DATABASE IF EXISTS tour_guide_system;
+
+CREATE DATABASE tour_guide_system;
+USE tour_guide_system;
+
+CREATE TABLE location (
+    locationId INT AUTO_INCREMENT,
+    locationName VARCHAR(50) NOT NULL,
+    locationDesc VARCHAR(250),
+    uniqueAct VARCHAR(50),
+    uniqueActDesc VARCHAR(250),
+    CONSTRAINT pk_location 
+        PRIMARY KEY (locationId)
+);
+
+CREATE TABLE hotel (
+    hotelId INT AUTO_INCREMENT,
+    hotelName VARCHAR(50) NOT NULL,
+    price INT NOT NULL,
+    hotelAct VARCHAR(250) NOT NULL,
+    CONSTRAINT pk_hotel 
+        PRIMARY KEY (hotelId)
+);
+
+CREATE TABLE restaurant (
+    restaurantId INT AUTO_INCREMENT,
+    restaurantName VARCHAR(50) NOT NULL,
+    price INT NOT NULL,
+    restaurantAct VARCHAR(250) NOT NULL,
+    CONSTRAINT pk_restaurant 
+        PRIMARY KEY (restaurantId)
+);
+
+CREATE TABLE locHotel (
+    locationId INT,
+    hotelId INT,
+    CONSTRAINT pk_lochotel
+    	PRIMARY KEY (locationId, hotelId),
+    CONSTRAINT fk_locHotel_location
+    	FOREIGN KEY (locationId)
+    	REFERENCES location(locationId),
+	CONSTRAINT fk_locHotel_hotel
+    	FOREIGN KEY (hotelId)
+    	REFERENCES hotel(hotelId)
+);
+
+CREATE TABLE locRest (
+    locationId INT,
+    restaurantId INT,
+    CONSTRAINT pk_lochotel
+    	PRIMARY KEY (locationId, restaurantId),
+    CONSTRAINT fk_locRest_location
+    	FOREIGN KEY (locationId)
+    	REFERENCES location(locationId),
+	CONSTRAINT fk_locRest_restaurant
+    	FOREIGN KEY (restaurantId)
+    	REFERENCES restaurant(restaurantId)
+);
