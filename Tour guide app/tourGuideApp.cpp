@@ -11,6 +11,9 @@ int main()
 	struct locationNode *CurrLoc;
 	
 	//Get num people on tour
+    int noOnTour;
+    cout<<"\nEnter the number of people on tour: ";
+    cin>>noOnTour;
 	
 	//Show tour packages and get response
 	
