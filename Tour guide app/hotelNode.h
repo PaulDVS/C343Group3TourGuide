@@ -15,7 +15,12 @@ private:
 
 public:
     hotelNode();
-    hotelNode(int id, string name, double price, string act);
+    hotelNode(int id, string name, double price, string act) {
+	    this->hotelId = id;
+	    this->hotelName = name;
+	    this->hotelPrice = price;
+	    this->hotelAct = act;
+	}
     int getId(){
         return hotelId;
     }

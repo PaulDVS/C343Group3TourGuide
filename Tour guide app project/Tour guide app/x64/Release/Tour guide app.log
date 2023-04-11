@@ -1,0 +1,46 @@
+﻿  main.cpp
+C:\Users\Admin\Documents\Wiley edge course C group github C++\C343Group3TourGuide\Tour guide app project\Tour guide app\hotelNode.h(14,22): warning C4099: 'hotelNode': type name first seen using 'class' now seen using 'struct'
+C:\Users\Admin\Documents\Wiley edge course C group github C++\C343Group3TourGuide\Tour guide app project\Tour guide app\hotelNode.h(8,7): message : see declaration of 'hotelNode'
+C:\Users\Admin\Documents\Wiley edge course C group github C++\C343Group3TourGuide\Tour guide app project\Tour guide app\restaurantNode.h(14,27): warning C4099: 'restaurantNode': type name first seen using 'class' now seen using 'struct'
+C:\Users\Admin\Documents\Wiley edge course C group github C++\C343Group3TourGuide\Tour guide app project\Tour guide app\restaurantNode.h(8,7): message : see declaration of 'restaurantNode'
+C:\Users\Admin\Documents\Wiley edge course C group github C++\C343Group3TourGuide\Tour guide app project\Tour guide app\locationNode.h(27,22): warning C4099: 'locationNode': type name first seen using 'class' now seen using 'struct'
+C:\Users\Admin\Documents\Wiley edge course C group github C++\C343Group3TourGuide\Tour guide app project\Tour guide app\locationNode.h(18,7): message : see declaration of 'locationNode'
+C:\Users\Admin\Documents\Wiley edge course C group github C++\C343Group3TourGuide\Tour guide app project\Tour guide app\locationNode.h(39,38): warning C4099: 'locationNode': type name first seen using 'class' now seen using 'struct'
+C:\Users\Admin\Documents\Wiley edge course C group github C++\C343Group3TourGuide\Tour guide app project\Tour guide app\locationNode.h(18,7): message : see declaration of 'locationNode'
+C:\Users\Admin\Documents\Wiley edge course C group github C++\C343Group3TourGuide\Tour guide app project\Tour guide app\locationNode.h(262,29): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Admin\Documents\Wiley edge course C group github C++\C343Group3TourGuide\Tour guide app project\Tour guide app\locationNode.h(298,29): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Admin\Documents\Wiley edge course C group github C++\C343Group3TourGuide\Tour guide app project\Tour guide app\locationNode.h(320,51): warning C4099: 'locationNode': type name first seen using 'class' now seen using 'struct'
+C:\Users\Admin\Documents\Wiley edge course C group github C++\C343Group3TourGuide\Tour guide app project\Tour guide app\locationNode.h(18,7): message : see declaration of 'locationNode'
+C:\Users\Admin\Documents\Wiley edge course C group github C++\C343Group3TourGuide\Tour guide app project\Tour guide app\main.cpp(45,23): warning C4099: 'locationNode': type name first seen using 'class' now seen using 'struct'
+C:\Users\Admin\Documents\Wiley edge course C group github C++\C343Group3TourGuide\Tour guide app project\Tour guide app\locationNode.h(18,7): message : see declaration of 'locationNode'
+C:\Users\Admin\Documents\Wiley edge course C group github C++\C343Group3TourGuide\Tour guide app project\Tour guide app\main.cpp(46,23): warning C4099: 'locationNode': type name first seen using 'class' now seen using 'struct'
+C:\Users\Admin\Documents\Wiley edge course C group github C++\C343Group3TourGuide\Tour guide app project\Tour guide app\locationNode.h(18,7): message : see declaration of 'locationNode'
+     Creating library C:\Users\Admin\Documents\Wiley edge course C group github C++\C343Group3TourGuide\Tour guide app project\Tour guide app\x64\Release\Tour guide app.lib and object C:\Users\Admin\Documents\Wiley edge course C group github C++\C343Group3TourGuide\Tour guide app project\Tour guide app\x64\Release\Tour guide app.exp
+  Generating code
+  2 of 521 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+mysqlcppconn-static.lib(mysql_driver.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_driver.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_connection.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_connection.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_native_driver_wrapper.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_native_driver_wrapper.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_uri.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_uri.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_metadata.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_metadata.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_warning.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_warning.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_prepared_statement.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_prepared_statement.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_statement.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_statement.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_debug.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_debug.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_client_api.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_client_api.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_native_connection_wrapper.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_native_connection_wrapper.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_util.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_util.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_art_resultset.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_art_resultset.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_resultbind.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_resultbind.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_ps_resultset.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_ps_resultset.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_ps_resultset_metadata.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_ps_resultset_metadata.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_parameter_metadata.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_parameter_metadata.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_resultset.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_resultset.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_native_resultset_wrapper.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_native_resultset_wrapper.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_native_statement_wrapper.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_native_statement_wrapper.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_art_rset_metadata.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_art_rset_metadata.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_resultset_metadata.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_resultset_metadata.obj)' or at ''; linking object as if no debug info
+  Tour guide app.vcxproj -> C:\Users\Admin\Documents\Wiley edge course C group github C++\C343Group3TourGuide\Tour guide app project\Tour guide app\x64\Release\Tour guide app.exe

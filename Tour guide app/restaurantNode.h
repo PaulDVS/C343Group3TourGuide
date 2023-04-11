@@ -15,7 +15,12 @@ private:
 
 public:
     restaurantNode();
-    restaurantNode(int id, string name, double price, string act);
+    restaurantNode(int id, string name, double price, string act) {
+	    this->restaurantId = id;
+	    this->restaurantName = name;
+	    this->restaurantPrice = price;
+	    this->restaurantAct = act;
+	}
     int getId(){
         return restaurantId;
     }

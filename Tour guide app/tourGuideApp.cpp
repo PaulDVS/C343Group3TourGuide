@@ -1,5 +1,6 @@
 #include<iostream>
 #include<string>
+#include<vector>
 #include "locationNode.h"
 
 using namespace std;
@@ -12,10 +13,18 @@ int main()
 	struct locationNode *Headloc;
 	struct locationNode *CurrLoc;
 	
+	
+	CurrLoc = locationNode(1, "name", "desc", "act", "act desc")
+	
+	CurrLoc.loadHotels()
+	CurrLoc.printHotels()
+	
+	
+	
 	//Get num people on tour
-    int noOnTour;
-    cout<<"\nEnter the number of people on tour: ";
-    cin>>noOnTour;
+	//int noOnTour;
+    //cout<<"\nEnter the number of people on tour: ";
+   // cin>>noOnTour;
 	
 	//Show tour packages and get response
 	
