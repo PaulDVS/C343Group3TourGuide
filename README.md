@@ -6,3 +6,5 @@ Users are taken from location to location, allowing them to stay at hotel, eat a
 
 The project has been created as a visual studio project in the Tour guide app project folder.
 Tour guide sql text file contains the sql to create the database.
+
+Made use of the following tutorial to set up our visual studio environment: https://www.youtube.com/watch?v=a_W4zt5sR1M&amp;loop=0
